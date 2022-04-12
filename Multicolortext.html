@@ -1,0 +1,29 @@
+<html>
+    <head>
+    <script>
+        var displaed=true;
+        function fn1()
+        {
+            
+            if(displaed == true)
+            {
+                document.getElementById("p1").style.display="none";
+                displaed=false;
+            }
+            else
+            {
+                document.getElementById("p1").style.display="inline";
+                displaed=true;
+            }
+           
+        }
+        
+        </script>
+    </head>
+    <body>
+      
+        <SPan style="color:red">E</SPan><span id="M" style="color:yellow">M</span><span style="color:green;">I</span><span style="color :hotpink;">D</span>
+            <span style="color:lawngreen;">S</span><span style="color:violet;">C</span>
+            <button onclick="fn1()">click me</button>
+    </body>
+</html>

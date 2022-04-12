@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <script>
+            var id=30;
+
+            function f1()
+            {
+                id=id+20;
+                document.getElementById("file").value=id;
+            }
+            </script>
+    </head>
+<body>
+
+<h1>The progress element</h1>
+
+<label for="file">Downloading progress:</label>
+<progress id="file" value="32" max="100"> 32% </progress>
+<button onclick="f1()">click</button>
+
+</body>
+</html>
